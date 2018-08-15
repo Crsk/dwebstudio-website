@@ -139,7 +139,7 @@ nav ul li a:active {
     background: rgba(255, 255, 255, 0.85);
 }
 #tec3 {
-    background: url(../img/camaras.jpg) no-repeat 50% 50%;
+    background: url(../img/app.jpg) no-repeat 50% 50%;
     height: 400px;
     width: 100%;
     position: relative;
@@ -167,7 +167,7 @@ nav ul li a:active {
     background: rgba(255, 255, 255, 0.85);
 }
 #tec5 {
-    background: url(../img/iot.jpg) no-repeat 50% 50%;
+    background: url(../img/sistema.jpg) no-repeat 50% 50%;
     height: 400px;
     width: 100%;
     position: relative;
@@ -181,7 +181,7 @@ nav ul li a:active {
     background: rgba(255, 255, 255, 0.85);
 }
 #tec6 {
-    background: url(../img/iot.jpg) no-repeat 50% 50%;
+    background: url(../img/ml.jpg) no-repeat 50% 50%;
     height: 400px;
     width: 100%;
     position: relative;
