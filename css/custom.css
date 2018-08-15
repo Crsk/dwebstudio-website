@@ -1,0 +1,377 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('http://fonts.googleapis.com/css?family=Ubuntu:400,500');
+
+* {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: .99em;
+}
+
+html, body {
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    padding: 10px 100px;
+    box-sizing: border-box;
+    transition: .9s;
+    z-index: 1;
+}
+nav.blackNav {
+    background: rgba(0,0,0,.8);
+    height: 60px;
+    padding: 10px 80px;
+}
+nav .logo {
+    padding: 2px 20px;
+    height: 80px;
+    float: left;
+    font-size: 24px;
+    transition: .9s;
+}
+nav.blackNav .logo {
+    color: #fff;
+}
+.logo img {
+    height: 42px;
+    padding-bottom: 6px;
+}
+
+nav ul {
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 2px 20px;
+    
+    display: flex;
+}
+nav ul li {
+    list-style: none;
+}
+nav ul li a {
+    line-height: 40px;
+    color: #fff;
+    padding: 0px 30px;
+    text-transform: uppercase;
+    transition: .9s;
+    font-size: 10px;
+    text-decoration: none;
+
+}
+nav.blackNav ul li a {
+    color: #fff;
+}
+
+nav ul li a:focus {
+    outline: none;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    outline: none;
+    text-decoration: none;
+    color: rgb(239, 127, 0);
+}
+
+nav ul li a:active {
+    color: rgb(27, 162, 172);
+    text-decoration: none;
+}
+
+.sec-texto {
+    position: relative;
+    font-size: .8em;
+}
+
+#tec1:before {
+    content: "";
+    position: absolute;
+    left: 0; right: 0;
+    top: 0; bottom: 0;
+    background: rgba(255, 255, 255, 0.85);
+}
+#tec1 {
+    background: url(../img/code.jpg) no-repeat 50% 50%;
+    height: 400px;
+    width: 100%;
+    position: relative;
+    background-size: cover;
+
+}
+
+.desc {
+    display: none;
+    position: absolute;
+    padding-top: 200px;
+    font-size: .8em;
+    text-align: justify;
+    padding-right: 36px;
+    
+}
+
+#tec2:before {
+    content: "";
+    position: absolute;
+    left: 0; right: 0;
+    top: 0; bottom: 0;
+    background: rgba(255, 255, 255, 0.85);
+}
+#tec2 {
+    background: url(../img/iot.jpg) no-repeat 50% 50%;
+    height: 400px;
+    width: 100%;
+    position: relative;
+    background-size: cover;
+}
+#tec3:before {
+    content: "";
+    position: absolute;
+    left: 0; right: 0;
+    top: 0; bottom: 0;
+    background: rgba(255, 255, 255, 0.85);
+}
+#tec3 {
+    background: url(../img/camaras.jpg) no-repeat 50% 50%;
+    height: 400px;
+    width: 100%;
+    position: relative;
+    background-size: cover;
+}
+#tec4:before {
+    content: "";
+    position: absolute;
+    left: 0; right: 0;
+    top: 0; bottom: 0;
+    background: rgba(255, 255, 255, 0.85);
+}
+#tec4 {
+    background: url(../img/redes.jpg) no-repeat 50% 50%;
+    height: 400px;
+    width: 100%;
+    position: relative;
+    background-size: cover;
+}
+#tec5:before {
+    content: "";
+    position: absolute;
+    left: 0; right: 0;
+    top: 0; bottom: 0;
+    background: rgba(255, 255, 255, 0.85);
+}
+#tec5 {
+    background: url(../img/iot.jpg) no-repeat 50% 50%;
+    height: 400px;
+    width: 100%;
+    position: relative;
+    background-size: cover;
+}
+#tec6:before {
+    content: "";
+    position: absolute;
+    left: 0; right: 0;
+    top: 0; bottom: 0;
+    background: rgba(255, 255, 255, 0.85);
+}
+#tec6 {
+    background: url(../img/iot.jpg) no-repeat 50% 50%;
+    height: 400px;
+    width: 100%;
+    position: relative;
+    background-size: cover;
+}
+
+.custom-navbar {
+    border-width: 0px;
+}
+
+button:focus,
+textarea:focus, 
+input[type="text"]:focus, 
+input[type="password"]:focus, 
+input[type="datetime"]:focus, 
+input[type="datetime-local"]:focus, 
+input[type="date"]:focus, 
+input[type="month"]:focus, 
+input[type="time"]:focus, 
+input[type="week"]:focus, 
+input[type="number"]:focus, 
+input[type="email"]:focus, 
+input[type="url"]:focus, 
+input[type="search"]:focus, 
+input[type="tel"]:focus, 
+input[type="color"]:focus, 
+input[type="button"]:focus, 
+.uneditable-input:focus {   
+    outline: none !important;
+    box-shadow: none;
+}
+
+select:focus {
+   outline-color: transparent;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+#top .navbar-nav li > a {
+	text-transform: capitalize;
+	color:#333;
+	transition: background-color .8s, color .8s;
+}
+
+#top .navbar-nav li.active > a {
+	color: #0cb1b7;
+}
+
+#inicio {
+    background: url(../img/inicio-blur.jpg) no-repeat center fixed;
+    display: table;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-size: cover;
+}
+
+#inicio:before {
+    content: "";
+    position: absolute;
+    left: 0; right: 0;
+    top: 0; bottom: 0;
+    background: rgba(0, 2, 6, 0.9);
+    /*background: rgba(27, 162, 172, 0.9);*/
+}
+
+#texto-inicio {
+    position: inherit;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    letter-spacing: 2px;
+}
+
+#desc-fx {
+    color: rgba(27, 162, 172, 1);
+}
+
+.vuelo-fx {
+    list-style: none;
+    position: absolute;
+    display: table;
+    top: 50%;
+    left: -4%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.vuelo-fx li {
+    display: table-cell;
+    margin-right: 50px;
+    font-weight: 300;
+    font-size: 2em;
+    color: #fff;
+    opacity: 1;
+    transition: all 2s ease;
+}
+
+.vuelo-fx li:last-chil {
+    margin-right: 0;
+}
+.vuelo-fx.hidden li {
+    opacity: 0; 
+}
+.vuelo-fx.hidden li:nth-child(10) { transform: translateX(-600px) translateY(-200px); }
+.vuelo-fx.hidden li:nth-child(11) { transform: translateX(-600px) translateY(100px); }
+.vuelo-fx.hidden li:nth-child(12) { transform: translateX(-600px) translateY(-80px); }
+.vuelo-fx.hidden li:nth-child(13) { transform: translateX(-600px) translateY(200px); }
+
+.typed-cursor {
+    display: none;
+}
+
+@media only screen and (min-width: 601px) {
+    .vuelo-fx li {
+      font-size: 3.5em;
+    }
+    .vuelo-fx #texto-fx {
+        font-size: 1.8em;
+        padding-top: 3.5em;
+        color: #fff;
+        letter-spacing: 2px;
+        transition: all 2s ease;
+    }
+    .vuelo-fx #desc-fx {
+        font-size: .7em;
+        padding-bottom: 7em;
+        height: 4px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .vuelo-fx li {
+        font-size: 2em;
+    }
+    .vuelo-fx #texto-fx {
+        font-size: 1em;
+        padding-top: 4.5em;
+        color: #fff;
+        letter-spacing: 2px;
+        transition: all 2s ease;
+    }
+    .vuelo-fx #desc-fx {
+        display: none;
+        font-size: .6em;
+        padding-bottom: 7em;
+        height: 4px;
+    }
+  }
+
+  .icon {
+      font-size: 4em;
+      color: #fff;
+      z-index: 200000;
+      position: relative;
+  }
+
+  #nosotros {
+    background: url(../img/oficina.jpg) no-repeat center fixed;
+    display: table;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-size: cover;
+    display: grid;
+    grid-template-rows: 120px auto auto auto;
+    grid-template-columns: 100px auto;
+    grid-template-areas:
+    "nosotros-header nosotros-header nosotros-header nosotros-header"
+    "nosotros-body nosotros-body nosotros-body nosotros-body";
+  }
+  #nosotros:before {
+    content: "";
+    position: absolute;
+    left: 0; right: 0;
+    top: 0; bottom: 0;
+    background: rgba(27, 162, 172, 0.9);
+}
+#nosotros-header {
+    grid-area: nosotros-header;
+    position: relative;
+    font-size: 2em;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: .1em;
+}
+#nosotros-body {
+    grid-area: nosotros-body;
+    position: relative;
+}
+
+#contacto {
+    height: 100vh;
+}
