@@ -1,12 +1,12 @@
 
 var options = {
-    strings: ["^3500A TUS IDEAS^1000."],
+    strings: ["^3500A TUS ESTRATEGIAS DE NEGOCIO^1000."],
     typeSpeed: 90,
     backDelay: 200,
     loop: false
 }
 var optionsDesc = {
-    strings: ["SOMOS UN ESTUDIO ENFOCADO AL USO DE NUEVAS TECNOLOGÍAS"],
+    strings: ["CON INTELIGENCIA ARTIFICIAL Y APRENDEZAJE AUTOMÁTICO"],
     typeSpeed: 26,
     backDelay: 200,
     loop: false
